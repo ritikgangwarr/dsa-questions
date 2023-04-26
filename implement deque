@@ -6,7 +6,7 @@ from math import *
 class Deque:
     
     
-    def _init_(self, size):
+    def __init__(self, size):
         self.size=size
         self.q=[0]*size
         self.f=-1
